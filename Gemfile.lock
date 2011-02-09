@@ -11,6 +11,7 @@ GEM
     activeresource (2.3.8)
       activesupport (= 2.3.8)
     activesupport (2.3.8)
+    faker (0.3.1)
     mysql (2.8.1)
     rack (1.1.0)
     rails (2.3.8)
@@ -21,10 +22,13 @@ GEM
       activesupport (= 2.3.8)
       rake (>= 0.8.3)
     rake (0.8.7)
+    will_paginate (2.3.14)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  faker (= 0.3.1)
   mysql
   rails (= 2.3.8)
+  will_paginate (= 2.3.14)
